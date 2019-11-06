@@ -16,7 +16,7 @@ public class Pfuturo {
     public static void main(String[] args) {
       String resultado=veredicto(args[1],args[2]);
        
-       System.out.println("Estudiante: " + args[0]);
+       System.out.println("Estudiante: " + args[0]+ "\n1º DAW \nModulos: "+args[1]+"\nHoras de estudio: "+args[2]);
        System.out.println(resultado);
    
     }
