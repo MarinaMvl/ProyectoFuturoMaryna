@@ -3,7 +3,7 @@
 package pfuturo;
 
 public class Pfuturo {
- static String veredicto(String modulos, String horas) {
+ private static String veredicto(String modulos, String horas) {
         if (modulos.equals(horas)) {
           return "Bien. Pero una hora de estudio para cada mÃ³dulo puede ser insuficiente.";}
   
